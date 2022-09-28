@@ -1,0 +1,101 @@
+/* *,
+body,
+html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: coral;
+} */
+
+*{
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: coral;
+}
+
+#title{
+  text-align: center;
+  text-transform: capitalize;
+  color:  white;
+  margin: 30px;
+}
+
+.container{
+  width: 100%;
+}
+
+.box{
+  width: 600px;
+  padding: 10px;
+  border: 3px solid black;
+  margin: 10px auto; 
+  /* padding: 10px 800px 0px 0px; */
+  display: flex; 
+}
+
+.box img{
+  width: 250px;
+  /* border: 2px solid black; */
+  height:  300px;
+  display: block;
+  object-fit: cover;
+  padding: 5px;
+}
+
+#button{
+  /* width: 12%; */
+  border-radius: 20px;
+  padding: 15px;
+  margin: 10px auto;
+  display: flex;
+  color: black;
+  font-size: medium;
+  background-color: antiquewhite;
+}
+
+
+
+/*
+.box .text{
+  width: 100%;
+  padding: 0 5px;  
+  min-width: 300px;
+  display: inline-flex;
+}
+
+
+p{
+  margin: 10px 0;
+}
+
+@media (min-width: 400px){
+  .container{
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      flex-wrap: wrap;
+  }
+  .box{
+      margin: 20px;
+      width: 380px;
+  }
+  .box img{
+      float: left;
+      width: 10px;
+      height: 150px;
+  }
+  .box .heading,
+  .box .text{
+      float: right;
+      width: 50%;
+  }
+  .box .text h1{
+    font-size: 20px;
+    font-weight: bold;
+    
+
+}
+} 
+*/
